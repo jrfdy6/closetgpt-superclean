@@ -1,0 +1,12 @@
+node_modules
+.next
+.env*
+.venv
+venv
+venv311
+backend/.venv
+backend/venv
+backend/venv311
+backend/backend/.venv
+backend/backend/venv
+backend/backend/venv311
