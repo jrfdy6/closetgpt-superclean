@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     
     # Server settings
     HOST: str = "0.0.0.0"
-    PORT: int = Field(default=8080, env="PORT")
+    PORT: int = Field(default=8000, env="PORT")
     WORKERS: int = 1
     
     # Database settings
