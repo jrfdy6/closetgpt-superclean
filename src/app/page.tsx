@@ -11,7 +11,7 @@ export default function Home() {
           <p className="max-w-[600px] mx-auto text-lg text-muted-foreground sm:text-xl mb-8">
             Your AI-powered personal stylist. Get your first month free.
           </p>
-          <div className="flex flex-col gap-4 sm:flex-row justify-center">
+          <div className="flex flex-col gap-4 sm:flex-row justify-center mb-8">
             <Link 
               href="/style-quiz"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
@@ -25,10 +25,16 @@ export default function Home() {
               Sign In
             </Link>
           </div>
-          <div className="mt-12">
+          <div className="space-y-4">
+            <Link 
+              href="/dashboard"
+              className="text-blue-600 hover:text-blue-700 underline block"
+            >
+              View Dashboard (Demo)
+            </Link>
             <Link 
               href="/hello"
-              className="text-blue-600 hover:text-blue-700 underline"
+              className="text-blue-600 hover:text-blue-700 underline block"
             >
               Test Page
             </Link>
