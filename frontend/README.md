@@ -88,3 +88,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # Force redeploy
 # Latest build with canvas removed
 # Force redeploy
+# Force deployment with new settings
